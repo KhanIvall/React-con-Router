@@ -8,7 +8,7 @@ function MyNavbar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="/"><img src="/dobby.webp"></img>Mi custion</Navbar.Brand>
+                <Navbar.Brand href="/"><img src="/dobby.webp" style={{width: '40px'}}></img>Mi custion</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
